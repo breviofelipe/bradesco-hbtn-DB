@@ -7,13 +7,12 @@ import com.mongodb.client.MongoDatabase;
 
 public class MongoDBConnection {
 
-//    mongodb+srv://develop:DTkQQHYFZ80Mwx8z@cluster0.ripiu2q.mongodb.net/
 
     // Variáveis de configuração
     private static final String USERNAME = "ENV_TESTE";
     private static final String PASSWORD = "ENV_PASS";
-    private static final String CLUSTER_URL = "cluster0.ripiu2q.mongodb.net"; // Substitua pelo seu cluster se for diferente
-    private static final String DATABASE_NAME = "Cluster0"; // Substitua pelo nome do seu banco de dados
+    private static final String CLUSTER_URL = ""; // Substitua pelo seu cluster se for diferente
+    private static final String DATABASE_NAME = ""; // Substitua pelo nome do seu banco de dados
 
 
     private MongoClient mongoClient;
